@@ -5,7 +5,7 @@
 <section class="workers-banner shop">
     <div class="container">
         <div class="workers-banner-text">
-            <h3>Shop</h3>
+            <h3>S....hop</h3>
         </div>
     </div>
 </section>
