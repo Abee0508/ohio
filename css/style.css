@@ -677,7 +677,7 @@ color: white;
 }
 
 
-                    /*CSS BY ABDULLAH 😑*/
+                    /*CSS BY ABDULLAH ðŸ˜‘*/
 
 .header-logo img {
     width: 240px;
@@ -692,9 +692,9 @@ color: white;
 }
 
 section.hero-banner .carousel-indicators [data-bs-target] {
-    height: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 100%;
-
 }
 
 .partner-img {
@@ -754,7 +754,9 @@ section.workers-tabs .nav-tabs button.active {
     color: #FF0000;
     border-top: 1px solid #CFCFCF;
 }
-
+section.workers-tabs .nav-tabs button:hover{
+    color:var(--red)
+}
 section.workers-tabs .nav-tabs button:hover {
     border-color: #CFCFCF;
 }
@@ -796,7 +798,6 @@ section.workers-tabs .nav-tabs button:last-child {
 .scroll-card {
     flex: 0 0 auto;
     width: 258px;
-    200px: 212px;
     overflow: hidden;
     padding: 0 15px;
     height: 200px;
@@ -1757,6 +1758,8 @@ header.main-header ul.dropdown-menu.show li a {
     padding: 0;
     margin: 0;
     text-wrap: balance;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
 }
 
 .member-content h4 {
@@ -2069,4 +2072,57 @@ section.product-des-sec {
 
 .product-details .col-md-6 .row ul {
     text-align: left;
+}
+
+
+.div-con h4 {
+    font-family: var(--fb);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+.div-con span {
+    font-family: var(--fp);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: block;
+    color: var(--blue);
+}
+
+.div-con ul {
+    font-family: var(--fp);
+    font-weight: 500;
+    line-height: 31px;
+}
+.testimonials {
+    border: 2px solid #CCCCCC;
+    width: 365px;
+    font-family: var(--fp);
+    border-radius: 15px;
+    padding: 14px;
+    display: flex;
+    height: 325px;
+    box-shadow: 0px 0px 13px 6px #CCCCCC;
+}
+section.con-sec {
+    padding: 60px 0;
+}
+.div-con p {
+    font-size: 18px;
+    line-height: 31px;
+    width: 690px;
+}
+.div-con a {
+    text-decoration: none;
+    color: #000;
+}
+p.textnormal span {
+    margin-bottom: 0;
+}
+.textnormal-min {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }

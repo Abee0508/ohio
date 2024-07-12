@@ -4,7 +4,7 @@
             <div class="row mt-5">
                 <div class="col-lg-3">
                 <div class="footer-logo">
-                    <img src="images/footer-1.png" alt="">
+                  <a href="index.php"> <img src="images/footer-1.png" alt=""></a> 
                 </div>
                 <div class="footer-img">
                     <div class="row align-items-center">
